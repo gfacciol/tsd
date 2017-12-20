@@ -23,3 +23,6 @@ try:
     import get_planet
 except SystemExit:
     pass
+
+from generalized_interfaces import aws_get_crop_from_aoi as aws_get_crop_from_aoi
+from generalized_interfaces import identify_satellite_from_metadata as identify_satellite_from_metadata
